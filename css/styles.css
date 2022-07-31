@@ -176,6 +176,9 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.team-list .item {
+  background-color: var(--white-color);
+}
 .text {
   color: var(--secondary-color);
 
