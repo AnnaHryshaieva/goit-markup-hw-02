@@ -17,13 +17,22 @@
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
 }
+.logo {
+  text-decoration: none;
+}
 .logo-w {
   color: var(--accent-color);
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19; 
 }
 .logo .logo-w:hover,
 .logo .logo-w:focus {
@@ -34,6 +43,11 @@ ul {
 }
 .logo-s {
   color: var(--logo-color);
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo .logo-s:hover,
 .logo .logo-s:focus {
@@ -44,6 +58,12 @@ ul {
 }
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -54,6 +74,12 @@ ul {
 }
 .list-nav .link {
   color: var(--secondary-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .list-nav .link:hover,
 .list-nav .link:focus {
@@ -70,12 +96,24 @@ ul {
 }
 .hero-title {
   color: var(--white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button.primary {
   color: var(--white-color);
   background-color: var(--accent-color);
   border-color: transparent;
   cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -85,29 +123,71 @@ ul {
   color: yellow
 }
 .button.secondary {
-    var(--title-text-color);
-    background-color: var(--secondary-color-btn);
-    border: 0px;
-    cursor: pointer;
+  var(--title-text-color);
+  background-color: var(--secondary-color-btn);
+  border: 0px;
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 .button.secondary:hover,
 .button.secondary:focus{
-  color: var(--accent-color);
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 .button.secondary:active{
   color: red;
 }
 .feature-list .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 .team-list .title {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-list .text {
+  font-size: 16px;
+  line-height: 19px;
 }
 .project-list .title {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text {
+  color: var(--secondary-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+.project-list .text {
+  font-size: 16px;
+  line-height: 1.88;
+}
+.team {
+  background-color: #F5F4FA;
 }
 .footer{
   background-color: #2F303A;
@@ -117,9 +197,19 @@ ul {
   }
 .address-link {
   color: var(--white-color);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
 .address-list .link {
   color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
 .footer .logo-w:hover,
 .footer .logo-w:focus {
